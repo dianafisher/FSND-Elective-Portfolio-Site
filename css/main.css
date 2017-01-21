@@ -21,12 +21,29 @@ body {
     color: #2d3c49;
 }
 
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #DF302C;
+  text-decoration: underline;
+}
+
 h1 {
   font-weight: 100;
   white-space: nowrap;
   font-size: 4em;
   margin: 0;
   text-align: right;    
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 2em;
+  margin: 0;
 }
 
 h3 {
@@ -47,6 +64,17 @@ article {
   max-width: 50em;
   border-bottom: 1px solid #ddd;
 }    
+
+img {
+  max-width: 100%;  
+  vertical-align: middle;
+}
+
+picture#banner img {
+  margin: 0 0 2em 0;
+  width: 100%;
+  height: 500px;
+}
 
 .grid {
     margin: 0 auto;
@@ -147,8 +175,21 @@ article {
 .line {
     width: 100%;
     height: 47px;
-    border-bottom: 5px solid #7d97ad;
+    border-bottom: 5px solid #FC8431;
     position: absolute;
 }
 
+.logo {
+  width: 100px;
+  float: left;
+  padding-top: 20px;
+}
+
+#jumbotron {
+  padding-top: 45px;
+}
+
+.project-name {
+  text-align: center;
+}
 
