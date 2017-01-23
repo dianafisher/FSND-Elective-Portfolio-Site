@@ -49,6 +49,7 @@ h2 {
   font-weight: 300;
   font-size: 2em;
   margin: 0;
+  color: #7d97ad;
 }
 
 h3 {
@@ -63,12 +64,17 @@ header {
     padding-top: 20px;
 }
 
+footer {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  font-size: 0.75em;  
+}
+
 article {
   align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: 50em;
-  border-bottom: 1px solid #ddd;  
+  max-width: 50em;  
   margin-right: 20px;
 }    
 
@@ -206,6 +212,15 @@ picture#banner img {
 
 .project-name {
   text-align: center;
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 1.5em;  
+}
+
+.project-url {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1em;
 }
 
 .header__inner {
