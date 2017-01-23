@@ -92,6 +92,10 @@ ul {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 picture#banner img {
   margin: 0 0 2em 0;
   width: 100%;
@@ -108,6 +112,10 @@ picture#banner img {
     width: 100%;
     margin-bottom: 20px;
     display: flex;   
+}
+
+.trimmed {
+  margin-bottom: 0;
 }
 
 .col-12 {
@@ -218,5 +226,9 @@ picture#banner img {
   text-align: center;
   font-weight: 100;
   font-size: 1em;
+}
+
+.featured {
+  padding-top: 10px;
 }
 
