@@ -218,13 +218,13 @@ picture#banner img {
   padding-top: 10px;
 }
 
-/**/
+/* Responsive styling */
 
-@media screen and (min-width: 820px) {
+/*@media screen and (min-width: 820px) {
   picture#banner img {
     height: 530px;
   }
-}
+}*/
 
 @media screen and (max-width: 821px) {
   article {
@@ -266,18 +266,15 @@ picture#banner img {
 
   p {
     font-size: 0.9em;
-  }
-
-  
+  }  
 }
 
-/*@media screen and (min-width: 621px) and (max-width: 800px) {
-  p {
-    font-size: 0.9em;
-  }
-}*/
 
 @media screen and (min-width: 822px) {  
+  picture#banner img {
+    height: 530px;
+  }
+
   .col-4 {
     width: 33.3333%;
   }
