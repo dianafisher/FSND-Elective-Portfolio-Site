@@ -101,7 +101,7 @@ p {
 picture#banner img {
   margin: 0 0 2em 0;
   width: 100%;
-  height: 530px;
+  /*height: 530px;*/
 }
 
 .container {
@@ -220,38 +220,55 @@ picture#banner img {
 
 /**/
 
+@media screen and (min-width: 820px) {
+  picture#banner img {
+    height: 530px;
+  }
+}
+
 @media screen and (max-width: 821px) {
   article {
     display: flex;
     flex-direction: column; 
   }
+
   .row {
     display: block;
   }
+
   h1 {
     font-size: 2em;
   }
+
   h2 {
     font-size: 1.5em;
   }
+
   h3 {
     font-size: 1em;
   }
+
   .col-4 {
     width: 100%;
   }
+
   .project-url {
     font-size: 0.75em;    
   }
+
   .logo {
     width: 54px;
   }
+
   footer {
     text-align: center;
   }
+
   p {
     font-size: 0.9em;
   }
+
+  
 }
 
 /*@media screen and (min-width: 621px) and (max-width: 800px) {
