@@ -171,7 +171,7 @@ picture#banner img {
 }
 
 .col-2 {
-    width: 16.66667;
+    width: 16.66667%;
 }
 
 .col-1 {
@@ -215,6 +215,10 @@ picture#banner img {
 }
 
 .featured {
+  padding-top: 10px;
+}
+
+.validators {
   padding-top: 10px;
 }
 
