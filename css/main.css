@@ -74,7 +74,7 @@ footer {
 article {
   align-items: center;
   width: 100%;      
-  max-width: 50em;  
+  /*max-width: 50em;  */
   margin-right: 20px;
   margin-bottom: 20px;
   transition: all 0.25s;
@@ -86,6 +86,7 @@ article:last-of-type {
 
 img {   
   vertical-align: middle;
+  width: 100%;
 }
 
 ul {
@@ -101,7 +102,6 @@ p {
 picture#banner img {
   margin: 0 0 2em 0;
   width: 100%;
-  /*height: 530px;*/
 }
 
 .container {
@@ -183,11 +183,6 @@ picture#banner img {
     /*height: 100px;*/
 }
 
-
-.lime {
-    background-color: #96af08;                    
-} 
-
 .logo {
   width: 100px;
   float: left;  
@@ -253,7 +248,7 @@ picture#banner img {
   }
 
   .project-url {
-    font-size: 0.75em;    
+    font-size: 0.85em;    
   }
 
   .logo {
@@ -265,7 +260,11 @@ picture#banner img {
   }
 
   p {
-    font-size: 0.9em;
+    font-size: 0.85em;
+  }
+
+  picture {
+    width: 100%;
   }  
 }
 
