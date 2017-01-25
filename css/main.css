@@ -220,6 +220,12 @@ picture#banner img {
   padding-top: 10px;
 }
 
+.validators img {
+  border: 0;
+  width: 88px;
+  height: 31px;
+}
+
 /* breakpoints */
 
 @media screen and (max-width: 821px) {
